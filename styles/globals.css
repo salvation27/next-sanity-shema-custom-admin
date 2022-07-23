@@ -5,7 +5,13 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
-
+ul,
+li {
+  display: block;
+}
+.dflex {
+  display: flex;
+}
 a {
   color: inherit;
   text-decoration: none;
@@ -23,4 +29,11 @@ a {
     color: white;
     background: black;
   }
+}
+
+section {
+  border: 1px solid green;
+}
+.card_reviews_wrap {
+  justify-content: space-around;
 }

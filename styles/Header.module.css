@@ -1,0 +1,11 @@
+.header {
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+}
+.header_menu ul {
+  gap: 10px;
+}
+.header_logo  {
+  cursor: pointer;
+}
